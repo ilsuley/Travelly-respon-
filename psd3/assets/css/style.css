@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font1: 'Open Sans', sans-serif;
+    --font2: 'Montserrat', sans-serif;
+}
+
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* header css start */
+
+header {
+    background-image: url("..//img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav i {
+    color: #fff;
+    font-size: 35px;
+}
+
+
+.header-body {
+    font: 300 52px var(--font1);
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.header-body h1 {
+    font-size: 52px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-top: 200px;
+
+}
+
+.header-body form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 210px;
+    cursor: pointer;
+}
+
+
+.header-body form input {
+    width: 326px;
+    height: 40px;
+    background-color: #ffffff;
+    font: 400 16px var(--font1);
+    letter-spacing: 1px;
+    color: #8b8b8b;
+    padding: 0 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+}
+
+.header-body form button {
+    width: 122px;
+    height: 40px;
+    background-color: #fd4f32;
+    font: 700 16px var(--font1);
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.header-body form button:hover {
+    background-color: #70433b;
+}
+
+
+.header-body form button:active {
+    background-color: #e0d6d4;
+}
+
+
+/* header css start */
+
+
+/* section css start */
+
+section {
+    background-color: #eeeeee;
+    padding-bottom: 70px;
+}
+
+.top h2 {
+    display: flex;
+    justify-content: baseline;
+    font: 400 16px var(--font2);
+    letter-spacing: 0px;
+    color: #323232;
+    text-align: right;
+    text-transform: uppercase;
+    padding-top: 60px;
+}
+
+.top p {
+    display: flex;
+    justify-content: baseline;
+    font: 400 15px var(--font1);
+    letter-spacing: 0px;
+    color: #8b8b8b;
+    text-align: right;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: #323232;
+    position: relative;
+}
+
+.flex1 span {
+    font: 400 12px var(--font2);
+    letter-spacing: 0px;
+    color: #fff;
+    position: absolute;
+    right: 15px;
+    top: 145px;
+}
+
+.flex1 img {
+    width: 240px;
+}
+
+.text {
+    width: 240px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.text h2 {
+    font: 400 14px var(--font2);
+    letter-spacing: 0px;
+    color: #323232;
+    padding: 10px;
+    
+}
+
+.text p {
+    font: 400 13px var(--font1);
+    line-height: 19px;
+    color: #696969;
+    padding: 10px;
+}
+
+/* section css end */
+
+/* section1 css start */
+
+.before {
+    font: 300 52px var(--font1);
+    letter-spacing: 2px;
+    color: #323232;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.info .text2  {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.before h2 {
+    font: 300 52px var(--font1);
+    letter-spacing: 2px;
+    color: #323232;
+    padding: 65px 0;
+}
+
+.text2 h3 {
+    font: 500 16px var(--font2);
+    letter-spacing: 0px;
+    color: #323232;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.text2 p {
+    font-size: 400 15px var(--font1);
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #8b8b8b;
+}
+
+.text3 h3{
+    font-size: 400 16px var(--font2);
+    letter-spacing: 0px;
+    color: #323232;
+    font-family: "Montserrat";
+    text-align: center;
+    padding-top: 75px;
+    text-transform: uppercase;
+}
+
+
+.get form {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    margin-top: 30px;
+}
+
+.get form input {
+    font: 400 16px var(--font1);
+    letter-spacing: 1px;
+    height: 50px;
+    width: 326px;
+    border: none;
+    background-color: #eeee;
+    padding-left: 13px;
+    color: #8b8b8b;
+}
+
+.get form button {
+    padding: 14px 33px;
+    font: 700 16px var(--font1);
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #fd4f32;
+    border: none;
+    cursor: pointer;
+}
+
+/* section1 css end */
+
+
+/* footer css start */
+
+
+footer {
+    background-color: #eeeeee;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy {
+    font: 400 14px var(--font1);
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #8b8b8b;
+}
+
+
+
+ ul li a {
+    font: 400 14px var(--font2);
+    letter-spacing: 0px;
+    color: #323232;
+    text-decoration: none;
+}
+
+/* footer css end */
