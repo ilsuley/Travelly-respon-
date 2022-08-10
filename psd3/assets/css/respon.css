@@ -6,22 +6,22 @@
 }
   
 body {
-    background-size: cover;
+    background-size:cover;
 }
 
 .header-body h1 {
     display: flex;
     justify-content: center;
     text-align:center;
-    font-size: 30px;
-
+    font-size: 20px;
+    margin: 20px;
 }
 
 .header-body form {
     display: flex;
     justify-content: center;
+    margin: 20px;
 }
-
 
 .top h2 {
     display: flex;
@@ -42,7 +42,6 @@ body {
 .flex div{
     justify-content: center;
     align-items: center;
-    padding-bottom: 10px;
 }
 
 .info div{
@@ -53,22 +52,36 @@ body {
     padding-bottom: 30px;
 } 
 
-.before h2 {
-    text-align: center;
+.text2{
+    margin: 50px;
 }
-
-.text2 p {
-    width: 302px;
-}
-
 
 .text3 h3{
     text-align: center;
-    font-size:  14px; ;
+    font-size:  14px ;
 }
 
-.copy {
-    display: inline-block;
+.get form{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+footer{
+    padding: 10px;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+}
+
+.copy{
+    padding-bottom: 10px;
+}
+
+.list{
+    display:flex;
+    justify-content: space-around;
     text-align: center;
 }
 }
@@ -148,6 +161,10 @@ body {
             max-width: 800px;
         }
         
+        .flex1 {
+            display: flex;
+            flex-wrap: wrap;
+        }
     }
 
 }
